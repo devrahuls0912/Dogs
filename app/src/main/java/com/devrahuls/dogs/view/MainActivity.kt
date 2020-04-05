@@ -24,4 +24,7 @@ class MainActivity : AppCompatActivity() {
         return NavigationUI.navigateUp(navController, null)
     }
 
+    fun default(param:Int){
+        var new = param+1
+    }
 }
