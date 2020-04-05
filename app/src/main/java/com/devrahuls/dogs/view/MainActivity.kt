@@ -24,7 +24,4 @@ class MainActivity : AppCompatActivity() {
         return NavigationUI.navigateUp(navController, null)
     }
 
-    private fun test(i: Int): Int {
-        return i * 2
-    }
 }
