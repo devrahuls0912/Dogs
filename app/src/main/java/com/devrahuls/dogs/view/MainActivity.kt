@@ -25,14 +25,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun doSomeWork() {
-        val i = 15
-        var ii = 50
+        val i = 60
+        var ii = 900
 
         val iString: String = i.toString()
         var iiString: String
 
-        if (ii < 100) {
-            iiString = (ii + 9).toString()
+        if (i >= 100) {
+            iiString = (ii * 9).toString()
         }
     }
 
