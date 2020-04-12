@@ -24,5 +24,16 @@ class MainActivity : AppCompatActivity() {
         return NavigationUI.navigateUp(navController, null)
     }
 
+    fun doSomeWork() {
+        val i = 15
+        var ii = 50
+
+        val iString: String = i.toString()
+        var iiString: String
+
+        if (ii < 100) {
+            iiString = (ii + 9).toString()
+        }
+    }
 
 }
