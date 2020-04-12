@@ -31,8 +31,8 @@ class MainActivity : AppCompatActivity() {
         val iString: String = i.toString()
         var iiString: String
 
-        if (ii < 100) {
-            iiString = (ii + 9).toString()
+        if (i >= 100) {
+            iiString = (ii * 9).toString()
         }
     }
 
