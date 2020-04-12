@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun doSomeWork() {
-        val i = 15
+        val i = 150
         var ii = 50
 
         val iString: String = i.toString()
